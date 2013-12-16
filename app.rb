@@ -11,7 +11,9 @@ before do
 end
 
 get '/' do
+
   @all_historical_query_results = Filestore.all
+
   erb :index
 end
 

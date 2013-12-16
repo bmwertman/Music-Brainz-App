@@ -13,7 +13,7 @@ class Filestore
     f = File.new(self.list_file_path, "r")
 
     while (line = f.gets)
-      contents << line
+      contents << line.chomp.split(", ")
     end
 
     #I don't understand why the below stopped working.  But it stopped working.  So using a while loop instead

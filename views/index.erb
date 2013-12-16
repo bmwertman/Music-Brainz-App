@@ -15,9 +15,8 @@
 
 <% @all_historical_query_results.reverse_each do |artist| %>
 	<tr>
-		<% artist_ar = artist.chomp.split(", ") %>
-		<td><%= artist_ar[0] %></td>
-		<td><%= artist_ar[1] %></td>
+		<td><%= artist[0] %></td>
+		<td><%= artist[1] %></td>
 	</tr>
 <% end %>
 </table>
