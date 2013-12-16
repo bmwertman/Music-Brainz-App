@@ -1,0 +1,1 @@
+I have only been building apps like this for two weeks. I am proud of how far I have come. Don't judge me too hard.
